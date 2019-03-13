@@ -36,6 +36,9 @@ TARGET_KERNEL_CONFIG := whyred-perf_defconfig
 # RIL
 TARGET_USES_OLD_MNC_FORMAT := true
 
+# RIL
+TARGET_USES_OLD_MNC_FORMAT := true
+
 # Security patch level
 VENDOR_SECURITY_PATCH := 2018-08-05
 
