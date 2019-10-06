@@ -638,6 +638,16 @@ vendor/firmware/cpp_firmware_v1_8_0.fw
 # Camera OIS
 vendor/lib/libois_bu63165.so
 
+# ESE-Powermanager
+vendor/bin/hw/vendor.qti.esepowermanager@1.0-service
+vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc
+lib/vendor.qti.esepowermanager@1.0.so
+lib64/vendor.qti.esepowermanager@1.0.so
+vendor/lib/hw/vendor.qti.esepowermanager@1.0-impl.so
+vendor/lib/vendor.qti.esepowermanager@1.0.so
+vendor/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so
+vendor/lib64/vendor.qti.esepowermanager@1.0.so
+
 # Fingerprint sensor
 vendor/lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.goodix.so
 vendor/lib64/hw/fingerprint.fpc.default.so:vendor/lib64/hw/fingerprint.fpc.so
